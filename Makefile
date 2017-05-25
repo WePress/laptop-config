@@ -1,9 +1,13 @@
 all:
+	make update;
 	make download;
 	make unpack;
 	make link;
 	make deps;
 	make install;
+
+update:
+	sudo apt update;
 
 deps:
 	sudo apt install gconf2 gconf-service libappindicator1;
@@ -36,3 +40,6 @@ install:
 	sudo dpkg -i sublime-text_build-3126_amd64.deb;
 	sudo dpkg -i google-chrome-stable_current_amd64.deb;
 	rm *.deb;
+
+# add setup target to add processing icon & workshop icon
+# also customize bash profile (just wepress)
