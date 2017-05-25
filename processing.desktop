@@ -1,1 +1,12 @@
+[Desktop Entry]
+Name=>Processing
+GenericName=Text Editor
+GenericName[de]=Texteditor
+Comment=Edit text files
+TryExec=processing
+Exec=processing %F
+Terminal=false
+Type=Application
 Icon=/home/wepress/Apps/processing-3.3.3/lib/icons/pde-128.png
+Categories=Utility;TextEditor;
+StartupNotify=false
