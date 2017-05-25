@@ -54,5 +54,8 @@ link:
 bash:
 	cp .bashrc ~/;
 
+picon: 
+	sudo cp processing.desktop /usr/share/applications;
+
 # add setup target to add processing icon & workshop icon
 # also customize bash profile (just wepress)
