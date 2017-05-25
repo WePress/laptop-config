@@ -10,7 +10,7 @@ update:
 	sudo apt update;
 
 deps:
-	sudo apt install gconf2 gconf-service libappindicator1;
+	sudo apt install git gconf2 gconf-service libappindicator1;
 	sudo apt -f install;
 
 download:
